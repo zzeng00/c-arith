@@ -2,7 +2,7 @@
 #include <cstdint>
 
 // Define a struct to represent a 32-bit floating-point number
-struct fp32 {
+/*struct fp32 {
     uint32_t bits;
 
     // Constructor to initialize the floating-point number
@@ -20,7 +20,10 @@ struct fp32 {
     void print() const {
         std::cout << "0x" << std::hex << bits << std::endl;
     }
-};
+};*/
+
+struct fp32{
+}
 
 int main() {
     // Create two 32-bit floating-point numbers
